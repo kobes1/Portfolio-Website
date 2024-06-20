@@ -13,17 +13,20 @@ body {
 }
 
 header {
-    text-align: center;
+    display: flex;
+    justify-content: flex-start; 
+    align-items: center;
     margin-bottom: 20px;
 }
 
 nav ul {
     list-style-type: none;
     padding: 0;
+    margin: 0;
+    display: flex;
 }
 
 nav ul li {
-    display: inline;
     margin-right: 20px;
 }
 
@@ -38,8 +41,7 @@ nav ul li a {
     text-align: center;
     margin-top: 260px; 
     color: #333;
-    font-style:italic;
-    
+    font-style: italic;
 }
 
 .middle-text h2 {
@@ -53,11 +55,11 @@ nav ul li a {
     font-size: 1.5em; 
     font-style: italic;
 }
+
 .university {
     color: #990000; 
     font-weight: bold; 
 }
-
 
 .button {
     display: inline-block;
@@ -85,7 +87,6 @@ nav ul li a {
     transform: translateY(1px); 
 }
 
-
 .dark-mode {
     background-color: #333; 
     color: #fff; 
@@ -94,18 +95,20 @@ nav ul li a {
 .dark-mode nav ul li a {
     color: #fff; 
 }
-.dark-mode h2{
-    color:White;
+
+.dark-mode h2 {
+    color: white;
 }
-.dark-mode .middle-text{
-    color:White;
+
+.dark-mode .middle-text {
+    color: white;
 }
+
 .dark-mode-toggle {
     position: fixed;
     top: 20px;
     right: 20px;
     z-index: 1000; 
-
     padding: 10px 15px;
     border-radius: 5px;
 }
