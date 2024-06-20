@@ -15,8 +15,13 @@ body {
 header {
     width: 100%;
     display: flex;
+    position: relative; 
+}
+
+nav {
+    position: absolute; 
     top: 20px;
-    left:20px;
+    left: 20px;
 }
 
 nav ul {
